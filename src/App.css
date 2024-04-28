@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+nav {
+  display: flex;
+  gap: 20px;
+  font-size: 20px;
+  flex-direction: column;
+  margin-left: 60px;
+  margin-top: 30px;
+  background-color: #9997A5;
+  width: 200px;
+  padding: 10px;
+  border-radius: 9px;
+  height: 390px;
+  text-align: center;
+  font-family: "Kanit", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+nav a {
+  color: #4C495F;
+  margin-top: 15px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  color: black;
+}
+
+nav img {
+  width: 100px;
+  height: 80px;
+  margin: 0 auto;
+}
+
+.App {
+  display: flex;
+  gap: 150px;
+  flex-wrap: wrap;
+}
+
+.post {
+  background-color: #9997A5;
+  width: 600px;
+  padding-bottom: 0px;
+  margin-top: 10px;
+  border-radius: 9px;
+}
+
+.ava img {
+  width: 40px;
+}
+
+.content img {
+  width: 500px;
+  background-color: #414a513f;
+  border-radius: 15px;
+}
+
+.text h4 {
+  margin-top: 50px;
+
+}
+
+.ava {
+  display: flex;
+  align-items: center;
+  padding-left: 50px;
+  gap: 10px;
+}
+
+.content {
+  text-align: center;
+}
+
+.buttons {
+  display: flex;
+  gap: 50px;
+  margin-bottom: 50px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+  margin-top: 10px;
+  align-items: center;
+}
+
+.buttons img {
+  width: 30px;
+}
+
+footer {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  padding: 20px;
+  background-color: #414a513f;
+  width: 100%;
+  justify-content: center;
+}
+
+footer a {
+  color: #4e4e50;
+  text-decoration: none;
+  transition: 0.4s;
+}
+
+footer a:hover {
+  color: white;
+  font-size: 20px;
+}
+
+.profile {
+  background-color: #9997A5;
+  width: 500px;
+  height: 377px;
+  border-radius: 13px;
+  margin-top: 30px;
+  padding: 20px;
+}
+
+.profile img {
+  float: right;
+
+}
+
+.profile h2 {
+  color: white;
+}
+.profile button{
+  width: 140px;
+  height: 30px;
+  border: none;
+  border-radius: 6px;
+  transition: 0.3s;
+  margin: 0 36% auto;
+} 
+.profile button:hover{
+  width: 170px;
+  height: 40px;
+  color: white;
+  background-color: black;
+  border-radius: 9px;
+}
+.friends {
+ background-color: #9997A5;
+  width: 600px;
+  padding-bottom: 0px;
+  margin-top: 30px;
+  border-radius: 9px;
+}
+
+.friends h1 {
+  text-align: left;
+}
+
+.friend {
+  font-size: 30px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-color: #666471b3;
+  border-radius: 5px;
+  width: 90%;
+  text-align: left;
+  margin: 10px auto;
+  padding: 10px;
+  display: flex;
+  height: 50px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.delButton {
+  background-color: black;
+  color: white;
+  width: 100px;
+  height: 40px;
+  border: 0px;
+  border-radius: 10px;
+  transition: 0.4s;
+}
+
+.delButton:hover {
+  color: black;
+  background-color: white;
+  font-size: 17px;
+  width: 110px;
+}
+
+.sad {
+  width: 25px;
+}
+
+.like {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.Post_ww {
+  background-color: #9997A5;
+  width: 600px;
+  padding-bottom: 0px;
+  margin-top: 10px;
+  border-radius: 9px;
+  text-align: center;
+  height: 340px;
+}
+.Post_ww input {
+  width: 400px;
+  height: 25px;
+  border: none;
+  border-radius: 6px;
+  padding: 10px;
+}
+
+.Post_ww button {
+  border: none;
+  border-radius: 5px;
+  width: 150px;
+  height: 30px;
+  transition: 0.5s;
+  margin-top: 30px;
+}
+.Post_ww button:hover{
+  color: white;
+  background-color: black;
+  height: 40px;
+  width: 170px;
+  transition: 0.5s;
+  font-size: 17px;
+}
+.bttns{
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+.Friends_rr {
+  background-color: #9997A5;
+  width: 600px;
+  padding-bottom: 0px;
+  margin-top: 10px;
+  border-radius: 9px;
+  text-align: center;
+  height: 200px;
+}
+
+.Friends_rr input {
+  width: 400px;
+  height: 25px;
+  border: none;
+  border-radius: 6px;
+  padding: 10px;
+}
+
+.Friends_rr button {
+  border: none;
+  border-radius: 5px;
+  width: 150px;
+  height: 30px;
+  transition: 0.5s;
+  margin-top: 30px;
+}
+.Friends_rr button:hover{
+  color: white;
+  background-color: black;
+  height: 40px;
+  width: 170px;
+  transition: 0.5s;
+  font-size: 17px;
+}
+
+.deletePost{
+  border: none;
+  width: 140px;
+  height: 30px;
+  border-radius: 7px;
+  margin-left: 50px;
+  transition: 0.3s;
+}
+.deletePost:hover{
+  width: 160px;
+  height: 40px;
+  color: white;
+  background-color: black;
+  border-radius: 10px;
+  cursor: pointer;
+}
